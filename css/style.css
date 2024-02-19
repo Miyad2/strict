@@ -400,6 +400,7 @@ footer {
   position: relative;
   color: #fff;
   border-radius: 3px;
+  transition: 0.3s all ease-in-out;
 }
 .footer-right li:hover {
   color: var(--icon-background);
