@@ -301,7 +301,7 @@ section.feature-section {
 
 section.contact-section {
   background: linear-gradient(45deg, #2d3950d6, #2d3950d6),
-    url(/images/contactBg.png);
+    URL(../images/contactBg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
