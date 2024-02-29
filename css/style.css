@@ -179,18 +179,13 @@ button.btn svg {
 
 .bannar-bottom-arrow {
   position: absolute;
-  /* bottom: 90px; */
   bottom: 200px;
   left: 50%;
   transform: translate(-50%, 50%);
   color: #fff;
   font-size: 23px;
-  /* transition: 1s all ease-in-out; */
   animation: animate 1.5s linear infinite alternate;
 }
-/* .bannar-bottom-arrow:hover {
-  margin-bottom: 50px;
-} */
 
 @keyframes animate {
   0% {
