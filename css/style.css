@@ -185,7 +185,7 @@ button.btn svg {
   color: #fff;
   font-size: 23px;
   transition: 3s all ease-in-out;
-  animation: animate 3s linear infinite;
+  animation: animate 3s linear infinite alternate;
 }
 /* .bannar-bottom-arrow:hover {
   margin-bottom: 50px;
@@ -193,16 +193,10 @@ button.btn svg {
 
 @keyframes animate {
   0% {
-    transform: translateY(0px);
-    margin-left: -10px;
-  }
-  50% {
-    transform: translateY(50px);
-    margin-left: -10px;
+    bottom: 200px;
   }
   100% {
-    transform: translateY(0px);
-    margin-left: -10px;
+    bottom: 150px;
   }
 }
 
