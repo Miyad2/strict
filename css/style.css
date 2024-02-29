@@ -179,13 +179,14 @@ button.btn svg {
 
 .bannar-bottom-arrow {
   position: absolute;
-  bottom: 90px;
+  /* bottom: 90px; */
+  bottom: 200px;
   left: 50%;
   transform: translate(-50%, 50%);
   color: #fff;
   font-size: 23px;
-  transition: 3s all ease-in-out;
-  animation: animate 3s linear infinite alternate;
+  /* transition: 1s all ease-in-out; */
+  animation: animate 1.5s linear infinite alternate;
 }
 /* .bannar-bottom-arrow:hover {
   margin-bottom: 50px;
@@ -298,7 +299,7 @@ section.feature-section {
 
 section.contact-section {
   background: linear-gradient(45deg, #2d3950d6, #2d3950d6),
-    URL(../images/contactBg.png);
+    url(../images/contactBg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
