@@ -134,6 +134,10 @@ nav ul li a {
 nav ul li:nth-child(4) {
   margin-right: 0;
 }
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 20px 0px;
+}
+
 
 /* =================================== */
 
@@ -179,13 +183,18 @@ button.btn svg {
 
 .bannar-bottom-arrow {
   position: absolute;
+  /* bottom: 90px; */
   bottom: 200px;
   left: 50%;
   transform: translate(-50%, 50%);
   color: #fff;
   font-size: 23px;
+  /* transition: 1s all ease-in-out; */
   animation: animate 1.5s linear infinite alternate;
 }
+/* .bannar-bottom-arrow:hover {
+  margin-bottom: 50px;
+} */
 
 @keyframes animate {
   0% {
@@ -254,6 +263,9 @@ section.feature-section {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+}
+.gallery-item {
+    margin: 12px 0px;
 }
 
 .gallery-image {
@@ -358,12 +370,6 @@ footer {
 }
 
 .footer-left {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 30px;
-  align-items: baseline;
   color: var(--footerFontColor);
 }
 .footer-left p {
@@ -415,4 +421,13 @@ footer {
 
 .footer-right ul li:hover {
   color: var(--icon-background);
+}
+
+/* input[type="checkbox"]:checked {
+  accent-color: red;
+
+} */
+input[type="checkbox"]:checked {
+  /* accent-color: red; */
+background-color: red;
 }
